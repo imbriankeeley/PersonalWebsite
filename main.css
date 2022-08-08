@@ -110,6 +110,7 @@ h4 {
     background-color: #191919;
 }
 .about .main img {
+    border: 2px solid #000;
     height: auto;
     width: 430px;
 }
