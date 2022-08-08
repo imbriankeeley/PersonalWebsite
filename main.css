@@ -109,7 +109,7 @@ h4 {
     padding: 100px 0px;
     background-color: #191919;
 }
-.about .main img[src="../FirstProject/images/background2.png"] {
+.about .main img {
     height: auto;
     width: 430px;
 }
@@ -265,8 +265,8 @@ footer p:nth-child(1) {
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
-    font-weight: bold;
     text-align: center;
+    font-weight: bold;
 }
 footer p:nth-child(2) {
     color: white;
