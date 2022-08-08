@@ -127,8 +127,7 @@ h4 {
 }
 .about-text {
     width: 550px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .about-text h2 {
@@ -160,6 +159,7 @@ button {
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
+    text-align: center;
     margin: 0;
     padding: 13px 30px;
     border-radius: 30px;
