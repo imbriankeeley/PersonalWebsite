@@ -313,7 +313,7 @@ footer p:nth-child(2) {
     bottom: 35px;
     font-size: 14px;
 }
-@media screen and (max-width: 576px) and (orientation: portrait){
+/*@media screen and (max-width: 576px) and (orientation: portrait){
     .logo {
         color: white;
         font-size: 23px;
