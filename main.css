@@ -313,7 +313,7 @@ footer p:nth-child(2) {
     bottom: 35px;
     font-size: 14px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) and (orientation: portrait){
     .logo {
         color: white;
         font-size: 23px;
@@ -322,6 +322,11 @@ footer p:nth-child(2) {
     }
     nav ul {
         display: inline-block;
+    }
+    nav ul li {
+        padding: 0;
+    
+    }
     }
     nav ul li a {
         color:white;
@@ -467,7 +472,7 @@ footer p:nth-child(2) {
             min-height: 200px;
         }
         .card {
-            height: 170px;
+            height: 250px;
             width: 70px;
             padding: 10px 17px;
             background: #191919;
@@ -585,4 +590,3 @@ footer p:nth-child(2) {
             bottom: 35px;
             font-size: 14px;
         }
-}
