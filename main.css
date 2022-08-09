@@ -327,7 +327,6 @@ footer p:nth-child(2) {
         padding: 0;
     
     }
-    }
     nav ul li a {
         color:white;
         text-align: none;
@@ -590,3 +589,4 @@ footer p:nth-child(2) {
             bottom: 35px;
             font-size: 14px;
         }
+    }
