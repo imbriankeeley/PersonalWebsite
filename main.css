@@ -321,13 +321,14 @@ footer p:nth-child(2) {
         cursor: pointer;
     }
     nav {
-        padding: 0;
+        padding: 0px;
     }
     nav ul {
         display: inline-block;
+        padding: 0px;
     }
     nav ul li {
-        padding: 0;
+        padding: 0px;
     }
     nav ul li a {
         color:white;
