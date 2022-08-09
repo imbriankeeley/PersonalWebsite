@@ -22,7 +22,7 @@ nav {
 }
 .logo {
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -36,7 +36,6 @@ nav ul li {
 }
 nav ul li a {
     color:white;
-    font-size: 20px;
     text-align: none;
     text-decoration: none;
     font-weight: bold;
@@ -51,8 +50,6 @@ nav ul li a:hover {
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
-    height: 50px;
-    width: auto;
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
@@ -75,15 +72,15 @@ h1 {
 h3 {
     color: white;
     font-size: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 h4 {
     color:#f6bc92;
     letter-spacing: 2px;
-    font-size: 35px;
+    font-size: 20px;
 }
 .newslatter form{
-    width: 315px;
+    width: 275px;
     max-width: 100%;
     position: relative;
 }
@@ -137,7 +134,7 @@ h4 {
 .about-text h2 {
     color: white;
     text-align: center;
-    font-size: 85px;
+    font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
@@ -145,7 +142,7 @@ h4 {
     color: white;
     letter-spacing: 2px;
     text-align: center;
-    font-size: 35px;
+    font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
@@ -154,7 +151,7 @@ h4 {
     letter-spacing: 1px;
     line-height: 28px;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 45px;
 }
 button {
@@ -162,8 +159,6 @@ button {
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
-    height: 65;
-    width: auto;
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -337,7 +332,7 @@ footer p:nth-child(2) {
         padding: 10px;
     }
     nav ul {
-        padding: 0px
+        padding: 0;
     }
     nav ul li {
         list-style-type: none;
