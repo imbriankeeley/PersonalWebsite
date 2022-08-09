@@ -337,6 +337,7 @@ footer p:nth-child(2) {
         text-decoration: none;
         border: 2px solid transparent;
         font-weight: bold;
+        text-align: center;
         height: 15px;
         width: 23px;
         padding: 10px 25px;
@@ -440,6 +441,8 @@ footer p:nth-child(2) {
         border: 2px solid transparent;
         font-weight: bold;
         text-align: center;
+        height: 35;
+        width:auto;
         margin: 0;
         padding: 13px 30px;
         border-radius: 30px;
@@ -552,7 +555,7 @@ footer p:nth-child(2) {
         footer p:nth-child(2) {
             color: white;
             font-size: 17px;
-            width: 400px;
+            width: 380px;
             text-align: center;
             line-height: 26px;
         }
