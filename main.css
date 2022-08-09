@@ -320,8 +320,14 @@ footer p:nth-child(2) {
         letter-spacing: 1px;
         cursor: pointer;
     }
+    nav {
+        padding: 0;
+    }
     nav ul {
         display: inline-block;
+    }
+    nav ul li {
+        padding: 0;
     }
     nav ul li a {
         color:white;
