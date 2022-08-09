@@ -314,7 +314,7 @@ footer p:nth-child(2) {
     bottom: 35px;
     font-size: 14px;
 }
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
     .logo {
         color: white;
         font-size: 25px;
@@ -530,4 +530,4 @@ footer p:nth-child(2) {
             border: 2px solid #f86f0d;
             cursor: pointer;
         }
-}
+}*/
