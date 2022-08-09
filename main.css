@@ -321,7 +321,12 @@ footer p:nth-child(2) {
         cursor: pointer;
     }
     nav {
-        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 8%;
+        padding-right: 8%;
     }
     nav h2 {
         padding: 10px;
@@ -351,7 +356,6 @@ footer p:nth-child(2) {
         text-decoration: none;
         border: 2px solid transparent;
         font-weight: bold;
-        text-align: center;
         height: 15px;
         width: 23px;
         padding: 10px 25px;
