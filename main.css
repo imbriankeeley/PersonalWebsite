@@ -355,7 +355,7 @@ footer p:nth-child(2) {
         font-weight: bold;
         height: 15px;
         width: 23px;
-        padding: 0px;
+        padding: 10px 25px;
         border-radius: 30px;
         transition: transform .4s;
     }
