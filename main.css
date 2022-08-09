@@ -1,5 +1,7 @@
 
 body {
+    max-width: 100%;
+    overflow:hidden !important;
     margin: 0;
     padding: 0;
 }
