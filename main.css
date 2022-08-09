@@ -325,8 +325,8 @@ footer p:nth-child(2) {
         align-items: center;
         justify-content: space-between;
         padding-top: 15px;
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
     nav h2 {
         padding: 10px;
@@ -334,9 +334,6 @@ footer p:nth-child(2) {
     nav ul {
         display: inline-block;
         padding: 0px;
-    }
-    nav a {
-        text-align: center;
     }
     nav ul li {
         padding: 0px;
@@ -353,6 +350,7 @@ footer p:nth-child(2) {
         background-color: #f86f0d;
         color: white;
         text-decoration: none;
+        text-align: center;
         border: 2px solid transparent;
         font-weight: bold;
         height: 15px;
