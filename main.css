@@ -95,7 +95,7 @@ h4 {
     outline: none;
     border-radius: 30px;
 }
-.newslatter form input:last-child {
+.newslatter button {
     position: absolute;
     display: inline-block;
     outline: none;
