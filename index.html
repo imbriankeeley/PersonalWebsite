@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0" />
         <title>Brian's Portfolio</title>
         <link rel="shortcut icon" href="/favico.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="main.css"/>
@@ -16,7 +20,7 @@
         <div class="hero">
             <nav>
              <h2 class="logo">Portfo<span>lio</span></h2>
-             <ul>
+             <ul class="nav">
                 <li><a href="./">Home</a></li>
                 <li><a href="#abouthyperlink">About</a></li>
                 <li><a href="#projectshyperlink">Projects</a></li>
@@ -28,12 +32,6 @@
                 <h4>Hello, my name is</h4>
                 <h1>Brian <span>Keeley</span></h1>
                 <h3>Im a front end web developer</h3>
-                <div class="newslatter">
-                    <form>
-                        <input method="post" type="email" name="email" id="mail" placeholder="Enter Your Email">
-                        <input type="submit" name="submit" value="Enter">
-
-                    </form>
                 </div>
             </div>
         </div>
@@ -41,14 +39,14 @@
         <!-- About Section -->
         <a id="abouthyperlink">
         <section class="about">
-            <div class="main">
-                <img src="images/background2.png">
+            
+                <div class="img-container"><img src="images/background2.png"></div>
                 <div class="about-text">
                  <h2>About Me</h2>
                  <h5>Developer <span>& Designer</span></h5>
-                 <p>Im a student at WGU on path to graduate with a bachelors in Computer Science. I have strong skills with web development and look for new things to learn everyday that can help make me a better programmer. HTML, CSS, JavaScript, and Ruby on Rails are my stack of choice.</p>
+                 <p>Im a student at WGU on path to graduate with a bachelors in Computer Science. I have strong skills with web development and look for new things to learn everyday that can help make me a better programmer. HTML, CSS, JavaScript:Typescript, React and Node.js are my stack of choice.</p>
                 </div>
-            </div>
+            
         </section>
         </a>
 
@@ -62,11 +60,11 @@
             <div class="box">
                 <div class="card">
                     <i class="fa-solid fa-clock"></i>
-                    <h5>Digital Clock</h5>
+                    <h5>Etch-A-Sketch</h5>
                     <div class="pra">
-                        <p>I built this app in the middle of a Philosophy course at SPC. It uses JavaScript to read your local systems time and logs it to the wep page in real time as a clock.</p>
+                        <p>This is a neat little coloring app giving the user the ability to color blocks by hovering over them with their mouse. The grid is able to be set by a button for the user to customize and get creative! </p>
                         <p style="text-align: center;">
-                            <a target="_blank" class="button" href="/clock">View</a>
+                            <a target="_blank" class="button" href="https://imbriankeeley.github.io/Etch-A-Sketch-TOP/">Color!</a>
                         </p>
                     </div>
                 </div>
@@ -88,7 +86,7 @@
                     <div class="pra">
                         <p>This is a simple little game of Rock Paper Scissors where a prompt pops up on the screen asking you to choose your pick of the three. The game will end after 5 turns and tell you whether you won, lost, or tied.</p>
                         <p style="text-align: center;">
-                            <a target="_blank" class="button" href="https://imbriankeeley.github.io/Rock-Paper-Scissors-TOP/">View</a>
+                            <a target="_blank" class="button" href="https://imbriankeeley.github.io/Rock-Paper-Scissors-TOP/">Play!</a>
                         </p>
                     </div>
                 </div>
@@ -108,7 +106,7 @@
         <!-- Footer Start -->
         <footer>
             <p>Thats All!</p>
-            <p>Feel free to check out my other projects on github! <i class="fa-solid fa-face-smile"></i></p>
+            <p>Feel free to check out my other projects on github!</p>
             <div class="social">
                 <a target="_blank" href="https://www.facebook.com/imbriankeeley/"><i class="fa-brands fa-square-facebook"></i></a>
                 <a target="_blank" href="https://www.instagram.com/imbriankeeley/"><i class="fa-brands fa-square-instagram"></i></a>
