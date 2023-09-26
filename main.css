@@ -8,6 +8,8 @@ body {
     padding: 0;
     background-color: #C6DEF1;
     font-family: 'Kalam', cursive, sans-serif;
+    background-image: url(images/sakura.gif);
+    background-size: cover;
 }
 
 .hero {
@@ -16,6 +18,8 @@ body {
     background-color: #C6DEF1;
     display: flex;
     flex-direction: column;
+    background-image: url(images/sakura.gif);
+    background-size: cover;
 }
 nav {
     display: flex;
@@ -23,6 +27,8 @@ nav {
     justify-content: space-around;
     background-color: #C6DEF1;
     border-radius: 1rem;
+    background-image: url(images/sakura.gif);
+    background-size: cover;
 }
 .logo {
     color: #191919;
@@ -31,7 +37,7 @@ nav {
     cursor: pointer;
 }
 span {
-    color: #f0b0d3;
+    color: #191919;
 }
 
 .nav {
@@ -42,13 +48,13 @@ span {
 
 nav ul li {
     list-style-type: none;
-    background-color: #F2C6DE;
+    background-color: #FAEDCB;
     display: inline-block;
     padding: 10px 25px;
     border-radius: 1rem;
 }
 nav ul li a {
-    color: white;
+    color: #191919;
     text-align: none;
     text-decoration: none;
     font-weight: bold;
@@ -61,8 +67,8 @@ nav ul li a:hover {
     
 }
 .btn {
-    background-color: #F2C6DE;
-    color: white;
+    background-color: #FAEDCB;
+    color: #191919;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -131,7 +137,8 @@ h4 {
     padding: 50px 0px;
     background-color: #C6DEF1;
     border-radius: 1rem;
-    margin-bottom: 70px;
+    background-image: url(images/sakura.gif);
+    background-size: cover;
 }
 /*.img-container {
     border-radius: 50%;
@@ -148,6 +155,7 @@ h4 {
 .about-text {
     width: 650px;
     text-align: center;
+    
 }
 
 .about-text h2 {
@@ -155,13 +163,12 @@ h4 {
     text-align: center;
     font-size: 75px;
     text-transform: capitalize;
-    margin-bottom: 20px;
 }
 .about-text h5 {
     color: #191919;
     letter-spacing: 2px;
     text-align: center;
-    font-size: 34px;
+    font-size: 38px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
@@ -171,7 +178,10 @@ h4 {
     line-height: 28px;
     text-align: center;
     font-size: 34px;
+    font-weight: 501;
     margin-bottom: 45px;
+    gap: 10px;
+    line-height: 1.1;
 }
 button {
     background-color: #f86f0d;
@@ -196,9 +206,10 @@ flex-direction: column;
 
 background-color: #C6DEF1;
 width: 100%;
-padding: 100px 0px;
-margin: 10rem 0 8rem 0;
+padding: 200px 0px 0px 0px;
 gap: 60px;
+background-image: url(images/sakura.gif);
+    background-size: cover;
 }
 
 .title h2 {
@@ -210,32 +221,39 @@ gap: 60px;
 }
 .box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     min-height: 400px;
+    height: 1000px;
 }
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    height: 500px;
-    width: 480px;
+    gap:25px;
+    height: 750px;
+    width: 650px;
     padding: 20px 35px;
-    background: #E4F1EE;
     border-radius: 2rem;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
+.card img {
+    height: 650px;
+    border-radius: 50px;
+    border: solid #FAEDCB 3px;
+}
+
 .card i {
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #F2C6DE;
+    color: #191919;
 }
 .card h5 {
     color: #191919;
@@ -256,7 +274,11 @@ gap: 60px;
     margin-bottom: 25px;
 }
 .card .button {
-    background-color: #F2C6DE;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -264,53 +286,65 @@ gap: 60px;
     padding: 9px 22px;
     border-radius: 30px;
     transition: transform .4s;
+    height: 40px;
+    width: 50px;
 
 }
 .card .button:hover {
     background-color: transparent;
-    border: 2px solid #F2C6DE;
+    border: 2px solid #191919;
     cursor: pointer;
 }
 .contact-me {
     width: 100%;
-    height: 290px;
+    height: 75px;
     background: #C6DEF1;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    height: 40rem;
+    background-image: url(images/sakura.gif);
+    background-size: cover;
 }
 .contact-me p {
     color: #191919;
-    font-size: 30px;
+    font-size: 75px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 .contact-me .button-two {
-    background-color: #F2C6DE;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAEDCB;
+    color: #191919;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 13px 30px;
+    font-size: 25px;
+    height: 65px;
+    width: 125px;
+    padding: 8px 20px;
     border-radius: 30px;
     transform: .4s;
 }
 .contact-me .button-two:hover {
     background-color: transparent;
-    border: 2px solid #F2C6DE;
+    border: 2px solid #FAEDCB;
     cursor: pointer;
 }
 footer {
     position: relative;
     width: 100%;
     height: 400px;
-    background: #C6DEF1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 1rem;
+    background-image: url(images/sakura.gif);
+    background-size: cover;
 }
 footer p:nth-child(1) {
     font-size: 30px;
@@ -335,10 +369,10 @@ footer p:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F2C6DE;
+    background: #FAEDCB;
     border-radius: 50%;
     margin: 22px 10px;
-    color: white;
+    color: #191919;
     text-decoration: none;
     font-size: 20px;
 }
