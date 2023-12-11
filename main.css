@@ -220,10 +220,10 @@ background-image: url(images/sakura.gif);
     text-align: center;
 }
 .box {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 750px 750px;
+    grid-template-rows: 300px 3000px;
     min-height: 400px;
     height: 1000px;
 }
