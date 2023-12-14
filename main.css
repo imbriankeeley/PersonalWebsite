@@ -203,10 +203,12 @@ button:hover {
 .service {
 display: flex;
 flex-direction: column;
-
+justify-content: center;
+align-items: center;
+height: 95rem;
 background-color: #C6DEF1;
 width: 100%;
-padding: 200px 0px 0px 0px;
+padding: 0px 0px 40rem 0px;
 gap: 60px;
 background-image: url(images/sakura.gif);
     background-size: cover;
@@ -221,6 +223,7 @@ background-image: url(images/sakura.gif);
 }
 .box {
     display: grid;
+    align-items: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
