@@ -205,10 +205,10 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 95rem;
+height: 65rem;
 background-color: #C6DEF1;
 width: 100%;
-padding: 0px 0px 40rem 0px;
+padding: 0px 0px 50rem 0px;
 gap: 60px;
 background-image: url(images/sakura.gif);
     background-size: cover;
@@ -229,7 +229,7 @@ background-image: url(images/sakura.gif);
     grid-template-rows: 1fr 1fr;
     gap: 100px;
     min-height: 400px;
-    height: 1000px;
+    height:600px;
 }
 .card {
     display: flex;
