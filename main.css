@@ -130,7 +130,7 @@ h4 {
 }
 .about {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 30rem;
     width: 100%;
@@ -155,7 +155,7 @@ h4 {
 .about-text {
     width: 650px;
     text-align: center;
-    
+    margin-right: 100px;
 }
 
 .about-text h2 {
