@@ -2,9 +2,9 @@
     * {scroll-behavior: smooth;
   }
 }
-
 ::-webkit-scrollbar {
-    display: none;
+    width: 0px;
+    background: transparent;
 }
 
 
@@ -86,8 +86,9 @@ body {
     padding-left: 1.5rem;
     background-color: var(--background);
     font-family: 'Kalam', cursive, sans-serif;
-    -ms-overflow-style: none;
-    overflow: hidden;
+    scrollbar-width: none;
+    overflow: -moz-scrollbars-none; 
+    -ms-overflow-style: none; 
 }
 
 header {
