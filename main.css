@@ -2,70 +2,112 @@
     * {scroll-behavior: smooth;
   }
 }
-body {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #C6DEF1;
-    font-family: 'Kalam', cursive, sans-serif;
-    background-image: url(images/sakura.gif);
-    background-size: cover;
+
+:root {
+    --primary: #fffd97;
+    --secondary: #c7c3ff;
+    --text: white;
+    --background: black;
+    --accent: #433bff;
 }
 
-.hero {
-    height: 60rem;
-    width: 100%;
-    background-color: #C6DEF1;
-    display: flex;
-    flex-direction: column;
-    background-image: url(images/sakura.gif);
-    background-size: cover;
+body {
+    height: 100vh;
+    margin: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: var(--background);
+    font-family: 'Kalam', cursive, sans-serif;
 }
-nav {
+
+header {
+    border: 1px solid red;
+    height: 3.5rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    background-color: #C6DEF1;
-    border-radius: 1rem;
-    background-image: url(images/sakura.gif);
-    background-size: cover;
 }
+
 .logo {
-    color: #191919;
-    font-size: 35px;
+    color: var(--text);
+    font-size: 1.5rem;
     letter-spacing: 1px;
     cursor: pointer;
 }
-span {
-    color: #191919;
-}
 
-.nav {
+nav ul{
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3rem;
+    width: 6rem;
+    gap: .5rem;
+}
+
+span {
+    color: var(--primary);
 }
 
 nav ul li {
     list-style-type: none;
-    background-color: #FAEDCB;
-    display: inline-block;
-    padding: 10px 25px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .7rem;
+    width: 2.7rem;
+    padding: 5px 10px;
     border-radius: 1rem;
 }
+
 nav ul li a {
-    color: #191919;
+    color: var(--background);
     text-align: none;
     text-decoration: none;
+    font-size: .7rem;
     font-weight: bold;
     text-transform: capitalize;
 }
 
 nav ul li a:hover {
-    color: #FAEDCB;
+    color: var(--secondary);
     transition: .4s;
     
 }
+
+.content {
+    border: 1px solid red;
+    height: rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    color:var(--text);
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    color:var(--text);
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    color:var(--text);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
 .btn {
     background-color: #FAEDCB;
     color: #191919;
@@ -87,21 +129,7 @@ nav ul li a:hover {
     align-items: center;
     flex: 1;
 }
-h1 {
-    color:#191919;
-    margin: 20px 0px 20px;
-    font-size: 85px;
-}
-h3 {
-    color: #191919;
-    font-size: 34px;
-    margin-bottom: 50px;
-}
-h4 {
-    color: #191919;;
-    letter-spacing: 2px;
-    font-size: 34px;
-}
+
 .newslatter form{
     width: 275px;
     max-width: 100%;
@@ -140,10 +168,6 @@ h4 {
     background-image: url(images/sakura.gif);
     background-size: cover;
 }
-/*.img-container {
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-}*/
 
 .about img {
     -webkit-filter: drop-shadow(2px 1px 0 black)
@@ -389,4 +413,4 @@ footer p:nth-child(2) {
     color: #191919;
     bottom: 35px;
     font-size: 14px;
-}
+} */
