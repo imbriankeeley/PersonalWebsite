@@ -3,71 +3,6 @@
   }
 }
 
-
-/* xs */
-/* @media (min-width: 475px) {} */
-
-/* sm */
-/* @media (min-width: 640px) {} */
-
-/* md */
-/* @media (min-width: 768px) {} */
-
-/* lg */
-/* @media (min-width: 1024px) {} */
-
-/* xl */
-/* @media (min-width: 1280px) {} */
-
-/* 2xl */
-/* @media (min-width: 1536px) {} */
-
-
-/* xs */
-
-@media (min-width: 475px) {
-    .container {
-      max-width: 475px;
-    }
-  }
-  
-  /* sm */
-  @media (min-width: 640px) {
-    .container {
-      max-width: 640px;
-    }
-  }
-  
-  /* md */
-  @media (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
-  }
-  
-  /* lg */
-  @media (min-width: 1024px) {
-    .container {
-      max-width: 1024px;
-    }
-  }
-  
-  /* xl */
-  @media (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-  }
-  
-  /* 2xl */
-  @media (min-width: 1536px) {
-    .container {
-      max-width: 1536px;
-    }
-  }
-
-
-
 :root {
     --primary: #fffd97;
     --secondary: #c7c3ff;
@@ -154,7 +89,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 h1 {
@@ -183,7 +118,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 .about img {
@@ -232,7 +167,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 6rem;
+    padding-top: 5rem;
     gap: 1rem;
 }
 
@@ -298,7 +233,7 @@ h4 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 .contact-me p {
@@ -330,7 +265,7 @@ h4 {
 }
 
 footer {
-    padding-top: 6rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -378,3 +313,582 @@ footer p:nth-child(2) {
     color: var(--text);
     font-size: .7rem;
 } 
+
+
+
+/* xs */
+@media (min-width: 475px) {
+    .content {
+        padding-top: 6rem;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    
+    nav ul li {
+        height: 1.7rem;
+        width: 2.7rem;
+        padding: 5px 10px;
+    }
+    
+    nav ul li a {
+        font-size: .95rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+    
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    .about {
+        padding-top: 6rem;
+    }
+
+
+    .about img {
+        height: 12rem;
+    }
+    
+    .about-text h2 {
+        font-size: 2.5rem;
+    }
+    .about-text h5 {
+        font-size: 2rem;
+    }
+    .about-text p {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .projects {
+        padding-top: 6rem;
+    }
+
+    .title h2 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        height: 10rem;
+        width: 10rem;
+        padding: 2.5rem 2rem;
+    }
+    .card img {
+        height: 10rem;
+    }
+    
+    .button {
+        padding: .3rem 1rem;
+    }
+
+    .contact-me {
+        padding-top: 6rem;
+    }
+    
+    .contact-me p {
+        font-size: 2rem;
+    }
+    .contact-me .button-two {
+        font-size: 1.3rem;
+        height: 2rem;
+        width: 6rem;
+    }
+    
+    
+    footer p:nth-child(1) {
+        font-size: 2rem;
+    }
+    
+    footer p:nth-child(2) {
+        font-size: 1.1rem;
+    }
+    .social a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
+    .end {
+        font-size: .8rem;
+    } 
+    
+
+} 
+
+/* sm */
+@media (min-width: 640px) {
+    .content {
+        padding-top: 7rem;
+    }
+    .about {
+        padding-top: 7rem;
+    }
+    .projects {
+        padding-top: 7rem;
+    }
+    .contact-me {
+        padding-top: 7rem;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+    
+    nav ul li {
+        height: 2.5rem;
+        width: 3.5rem;
+        padding: 5px 10px;
+        border-radius: 1.2rem;
+    }
+    
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+    }
+    
+    h4 {
+        font-size: 2rem;
+    }
+
+
+    .about img {
+        height: 13rem;
+    }
+    
+    .about-text h2 {
+        font-size: 3rem;
+    }
+    .about-text h5 {
+        font-size: 2.5rem;
+    }
+    .about-text p {
+        font-size: 1.6rem;
+        line-height: 1.3;
+        padding: 0 2rem;
+    }
+
+    .title h2 {
+        font-size: 3rem;
+    }
+
+    .card {
+        height: 12rem;
+        width: 12rem;
+        padding: 2.5rem 2rem;
+    }
+    .card img {
+        height: 12rem;
+    }
+    
+    .button {
+        padding: .5rem 1.5rem;
+    }
+    
+    .contact-me p {
+        font-size: 2.5rem;
+    }
+    .contact-me .button-two {
+        font-size: 1.5rem;
+        height: 2.5rem;
+        width: 7rem;
+    }
+    
+    
+    footer p:nth-child(1) {
+        font-size: 2.5rem;
+    }
+    
+    footer p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+    .social a {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 2.5rem;
+    }
+    .end {
+        font-size: .9rem;
+    } 
+    
+   
+}
+
+/* md */
+@media (min-width: 768px) {
+    .content {
+        padding-top: 7rem;
+    }
+    .about {
+        padding-top: 7rem;
+    }
+    .projects {
+        padding-top: 7rem;
+    }
+    .contact-me {
+        padding-top: 7rem;
+    }
+
+
+    .logo {
+        font-size: 3rem;
+    }
+    
+    nav ul li {
+        height: 3rem;
+        width: 4rem;
+        padding: 5px 10px;
+        border-radius: 1.3rem;
+    }
+    
+    nav ul li a {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h3 {
+        font-size: 3.5rem;
+    }
+    
+    h4 {
+        font-size: 2.5rem;
+    }
+
+
+    .about img {
+        height: 15rem;
+    }
+    
+    .about-text h2 {
+        font-size: 3.5rem;
+    }
+    .about-text h5 {
+        font-size: 3rem;
+    }
+    .about-text p {
+        font-size: 1.7rem;
+        line-height: 1.3;
+        padding: 0 2.5rem;
+    }
+
+    .title h2 {
+        font-size: 3.5rem;
+    }
+
+    .card {
+        height: 14rem;
+        width: 14rem;
+        padding: 2.5rem 2rem;
+    }
+    .card img {
+        height: 14rem;
+    }
+    
+    
+    .button {
+        border-radius: 1..6rem;
+        font-size: 1.2rem;
+        padding: .7rem 1.8rem;
+    }
+    
+    .contact-me p {
+        font-size: 3rem;
+    }
+    .contact-me .button-two {
+        font-size: 2rem;
+        height: 3rem;
+        width: 9rem;
+    }
+    
+    
+    footer p:nth-child(1) {
+        font-size: 3rem;
+    }
+    
+    footer p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .social a {
+        width: 4rem;
+        height: 4rem;
+        font-size: 3rem;
+    }
+    .end {
+        font-size: 1.1rem;
+    } 
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .content {
+        padding-top: 7rem;
+    }
+    .about {
+        padding-top: 7rem;
+    }
+    .projects {
+        padding-top: 7rem;
+    }
+    .contact-me {
+        padding-top: 7rem;
+    }
+
+
+    .logo {
+        font-size: 3.5rem;
+    }
+    
+    nav ul li {
+        height: 3.5rem;
+        width: 4.5rem;
+        padding: 5px 10px;
+        border-radius: 1.5rem;
+    }
+    
+    nav ul li a {
+        font-size: 1.6rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+    
+    h3 {
+        font-size: 4rem;
+    }
+    
+    h4 {
+        font-size: 3rem;
+    }
+
+
+    .about img {
+        height: 17rem;
+    }
+    
+    .about-text h2 {
+        font-size: 4rem;
+    }
+    .about-text h5 {
+        font-size: 3.5rem;
+    }
+    .about-text p {
+        font-size: 2rem;
+        line-height: 1.3;
+        padding: 0 5rem;
+    }
+
+    .title h2 {
+        font-size: 4rem;
+    }
+
+    .card {
+        height: 16rem;
+        width: 16rem;
+        padding: 3rem 2.5rem;
+    }
+    .card img {
+        height: 16rem;
+    }
+    
+    
+    .button {
+        border-radius: 1..6rem;
+        font-size: 1.5rem;
+        padding: .7rem 1.8rem;
+    }
+    
+    .contact-me p {
+        font-size: 3.5rem;
+    }
+    .contact-me .button-two {
+        font-size: 2rem;
+        height: 3rem;
+        width: 9rem;
+    }
+    
+    
+    footer p:nth-child(1) {
+        font-size: 3rem;
+    }
+    
+    footer p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .social a {
+        width: 4rem;
+        height: 4rem;
+        font-size: 3rem;
+    }
+    .end {
+        font-size: 1.1rem;
+    } 
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .content {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    .about {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    .projects {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+    .contact-me {
+        padding-top: 9rem;
+    }
+
+    .logo {
+        font-size: 3.5rem;
+    }
+    
+    nav ul li {
+        height: 3.5rem;
+        width: 4.5rem;
+        padding: 5px 10px;
+        border-radius: 1.5rem;
+    }
+    
+    nav ul li a {
+        font-size: 1.6rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+    
+    h3 {
+        font-size: 4rem;
+    }
+    
+    h4 {
+        font-size: 3rem;
+    }
+
+
+    .about img {
+        height: 17rem;
+    }
+    
+    .about-text h2 {
+        font-size: 4rem;
+    }
+    .about-text h5 {
+        font-size: 3.5rem;
+    }
+    .about-text p {
+        font-size: 2.5rem;
+        line-height: 1.3;
+        padding: 0 5rem;
+    }
+
+    .title h2 {
+        font-size: 4rem;
+    }
+
+    .card {
+        height: 18rem;
+        width: 18rem;
+        padding: 3.5rem 3rem;
+    }
+    .card img {
+        height: 18rem;
+    }
+    
+    
+    .button {
+        border-radius: 1.6rem;
+        font-size: 2rem;
+        padding: .7rem 1.8rem;
+    }
+    
+    .contact-me p {
+        font-size: 3.5rem;
+    }
+    .contact-me .button-two {
+        font-size: 2rem;
+        height: 3rem;
+        width: 9rem;
+    }
+    
+    
+    footer p:nth-child(1) {
+        font-size: 3rem;
+    }
+    
+    footer p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .social a {
+        width: 4rem;
+        height: 4rem;
+        font-size: 3rem;
+    }
+    .end {
+        font-size: 1.1rem;
+    } 
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .content {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .about {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .projects {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .contact-me {
+        padding: 0;
+        margin-top: 15rem;
+    }
+
+
+    .about img {
+        height: 19rem;
+    }
+    
+    .about-text h2 {
+        font-size: 4rem;
+    }
+    .about-text h5 {
+        font-size: 3.5rem;
+    }
+    .about-text p {
+        font-size: 2.5rem;
+        line-height: 1.3;
+        padding: 0 10rem;
+    }
+
+    
+    .button {
+        border-radius: 1..6rem;
+        font-size: 2rem;
+        padding: .7rem 1.8rem;
+    }
+}
