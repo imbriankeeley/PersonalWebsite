@@ -1,2 +1,19 @@
-This is just a website im setting out to build fully for a portfolio project.
-I'm hoping any employers who come across this website will see my skill and help me with getting my foot in as a junior developer.
+# Hey there!
+## This is just my landing page for anyone who wants to see my recent work or connect with me :)
+
+Credits:
+
+Demo Images:
+	Unsplash (unsplash.com)
+
+Icons:
+	Font Awesome (fontawesome.io)
+
+Other:
+	jQuery (jquery.com)
+	Responsive Tools (github.com/ajlkn/responsive-tools)
+
+# Let's Connect!
+## [LinkedIn](https://www.linkedin.com/in/bkeeley24/)
+
+
