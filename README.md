@@ -1,5 +1,5 @@
 # Hey there!
-## This is just my landing page for anyone who wants to see my recent work or connect with me :)
+## This is just my landing page for anyone who wants to see my recent work or connect with me
 
 Credits:
 
