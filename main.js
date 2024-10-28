@@ -1,5 +1,6 @@
 const form = document.getElementById('form');
 const result = document.getElementById('result');
+const returnHome = document.getElementById('return-home');
 
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
@@ -37,3 +38,6 @@ form.addEventListener('submit', function (e) {
 		});
 });
 
+returnHome.addEventListener('click', () => {
+	window.location = '/';
+});
