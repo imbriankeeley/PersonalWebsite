@@ -114,3 +114,13 @@ body, input, select, textarea {
     border-color: #49bf9d;
     color: #49bf9d !important;
 }
+
+@media screen and (max-width: 385px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+}
