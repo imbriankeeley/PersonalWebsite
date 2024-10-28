@@ -3269,3 +3269,14 @@ input, select, textarea {
 		text-decoration: none;
 		white-space: nowrap;
 	}
+
+	.return-home:hover {
+		border-color: #49bf9d;
+		color: #49bf9d !important;
+	}
+
+	.return-home:active {
+		background-color: rgba(73, 191, 157, 0.1);
+		border-color: #49bf9d;
+		color: #49bf9d !important;
+	}
