@@ -56,14 +56,23 @@
 						<h2>Let's Connect!</h2>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="POST" action="https://formsubmit.co/mail@imbriankeeley.com">
+								<form method="POST" action="https://api.web3forms.com/submit">
 									<div class="row gtr-uniform gtr-50">
-										<input type="text" name="_honey" style="display:none">
+										<!-- <input type="hidden" name="access_key" value="62d97d52-cf4f-4b5d-81a0-93997ca81b1d">
+										<input type="checkbox" name="botcheck" class="hidden" style="display: none;"> -->
+
+										
+
+										<!-- <div class="h-captcha" data-captcha="true"></div> -->
+
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" ></textarea></div>
-										<input type="hidden" name="_autoresponse" value="Thank you for contacting me! I will respond as soon as I can.">
+										<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+  										<div class="cf-turnstile" data-sitekey="0x4AAAAAAAyodZj1z59yrgPk"></div>
 										<div><input type="submit" value="Send Message" /></div>
+										
+										<div id="result"></div>
 									</div>
 								</form>
 							</div>
@@ -410,6 +419,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+			<script src="main.js"></script>
 	</body>
 </html>
