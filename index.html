@@ -17,7 +17,7 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/pfp.png" alt="" /></a>
+					<img class="image avatar" src="images/pfp.png" alt="" />
 					<h1><strong>Brian Keeley</strong>, Full-Stack Software Engineer<br />
 					<br />
 				</div>
@@ -56,16 +56,16 @@
 						<h2>Let's Connect!</h2>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+								<form method="POST" action="https://formsubmit.co/mail@imbriankeeley.com">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<input type="text" name="_honey" style="display:none">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" ></textarea></div>
+										<input type="hidden" name="_autoresponse" value="Thank you for contacting me! I will respond as soon as I can.">
+										<div><input type="submit" value="Send Message" /></div>
 									</div>
 								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
 							</div>
 						</div>
 					</section>
